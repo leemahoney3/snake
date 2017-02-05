@@ -25,10 +25,12 @@ I have also used a couple of Conditional (ternary) Operators in this game.
 
 Thankfully there are only 2 apparent bugs. There are 2 small problems though:
 
-__Problems:__
+_Problems:_
+
 1. The game difficulties are based on frame rates, slower computers may not show this game to its true potential due to graphical performance.
 2. The snake gets rather large rather quick, therefore it can be a problem with the mirror effect some times as it can collide with itself if it goes over 25 ( as there are only 25 squares in the grid).
 
-__Bugs:__
+_Bugs:_
+
 1. Theres a one in a thousand chance the apple spawns off the screen. Even though I have a check in place to prevent this.
 2. The snake collision detection isn't allowing the snake to go backwards quickly. This is proving tricky for hair pin turns when playing.
